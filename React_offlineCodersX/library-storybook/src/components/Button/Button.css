@@ -1,0 +1,43 @@
+.btn{
+    font-size:14px;
+    border:1px solid #d9d9d9;
+    padding: 7px 15px;
+    display: inline-block;
+    white-space: nowrap;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: .5s all;
+    cursor: pointer;
+}
+.btn-default:hover{
+    color: #40a9ff;
+    background-color: #fff;
+    border-color: #40a9ff;
+}
+.btn-success:hover{
+    color: #28a745;
+    border-color: #28a745;
+}
+.btn-icon{
+    border:1px solid #d9d9d9;
+    width: 25px;
+    height: 25px;
+    border-radius: 2px;
+    transition: .5s all;
+    cursor: pointer;
+    text-align: center;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.65);
+    margin: 0 3px;
+}
+.btn-link{
+    height: 100%;
+}
+.btn-icon img{
+    width: 12px;
+    height: 12px;
+}
